@@ -11,9 +11,9 @@
     function gp() {
         let xy = document.getElementById('id');
         let oy = document.getElementById('css');
-        let code =  xy.value + oy.value;
+        let code =  xy.value;
         
-        document.body.innerHTML = '<p>add this with screen code in <a href="index.htm">home</a> and js code put it on script tag</p><textarea>' + code +'</textarea><br><button onclick="gm()">back to editor</button>';
+        document.body.innerHTML = '<p>add this with screen code in <a href="index.htm">home</a> and js code put it on script tag</p><textarea>' + code +'</textarea><br><p>and this for css code</p><textarea>' + oy.value + '</textarea><br><button onclick="gm()">back to editor</button>';
     }
    
 </script>
